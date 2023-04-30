@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+if((x>INT_MAX/10)||(x<INT_MIN/10)){
+return 0;
+}
+int n,result;
+while(n!=0){
+int rem = n%10;
+result = result*10+rem;
+n  = n/10;
+}
+return result;
+}
